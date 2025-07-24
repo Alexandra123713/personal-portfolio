@@ -154,24 +154,34 @@ export const projects = [
 	{
 		name: 'Coffee App',
 		imgSrc: './assets/coffe-app.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/coffee-app.github.io',
 		liveLink: 'https://alexandra123713.github.io/coffee-app.github.io',
 	},
 	{
 		name: 'Responsive Art Page',
 		imgSrc: './assets/art-app.png',
-		technologies: 'HTML/CSS',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/art-app.github.io',
 		liveLink: 'https://alexandra123713.github.io/art-app.github.io/',
 	},
 	{
 		name: 'Internet King Responsive Page',
 		imgSrc: './assets/internet-king.png',
-		technologies: 'HTML/CSS',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/internet-king-responsive.github.io',
 		liveLink:
@@ -180,8 +190,11 @@ export const projects = [
 	{
 		name: 'Barber Shop Responsive ',
 		imgSrc: './assets/barber-shop.png',
-		technologies: 'HTML/CSS/',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/barber-shop-responsive.github.io',
 		liveLink:
@@ -190,8 +203,12 @@ export const projects = [
 	{
 		name: 'Agent Registration Page',
 		imgSrc: './assets/agent-registration.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/agent-registration-page.github.io',
 		liveLink:
@@ -200,8 +217,12 @@ export const projects = [
 	{
 		name: 'Restaurant Management System',
 		imgSrc: './assets/restaurant-management.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/restaurant-management-system.github.io',
 		liveLink:
@@ -210,24 +231,36 @@ export const projects = [
 	{
 		name: 'Image Switcher',
 		imgSrc: './assets/image-switcher.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/image-switcher.github.io',
 		liveLink: 'https://alexandra123713.github.io/image-switcher.github.io/',
 	},
 	{
 		name: 'Stopwatch',
 		imgSrc: './assets/stopwatch.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/stopwatch.github.io',
 		liveLink: 'https://alexandra123713.github.io/stopwatch.github.io/',
 	},
 	{
 		name: 'Timed Carousel',
 		imgSrc: './assets/timed-carousel.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/timed-image-carousel.github.io',
 		liveLink:
@@ -236,8 +269,12 @@ export const projects = [
 	{
 		name: 'Bootstrap Form With Validation',
 		imgSrc: './assets/bootstrap-form.png',
-		technologies: 'HTML/CSS/JavaScript/Bootstrap',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/bootstrap-form-with-validation.github.io',
 		liveLink:
@@ -246,42 +283,69 @@ export const projects = [
 	{
 		name: 'Online Pizza Constructor',
 		imgSrc: './assets/pizza-constructor.png',
-		technologies: 'HTML/CSS/JavaScript',
-		deployed: true,
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
 		codeSource:
 			'https://github.com/Alexandra123713/online-pizza-constructor.github.io',
 		liveLink:
 			'https://alexandra123713.github.io/online-pizza-constructor.github.io/',
 	},
 	{
+		name: 'Rick & Morty API',
+		imgSrc: './assets/rick-morty.png',
+		technologies: {
+			HTML: './assets/html.png',
+			CSS: './assets/css-3.png',
+			JavaScript: './assets/js.png',
+		},
+		isDeployed: true,
+		codeSource:
+			'https://github.com/Alexandra123713/rick-and-morty-api.github.io',
+		liveLink: 'https://alexandra123713.github.io/rick-and-morty-api.github.io/',
+	},
+	{
 		name: 'Kub.md Employees Check In',
 		imgSrc: './assets/kub-checkin.png',
-		technologies: 'React',
-		deployed: true,
+		technologies: {
+			React: './assets/react.png',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/kub.md-app',
 		liveLink: 'http://kub-checkin.funsport95.com/',
 	},
 	{
 		name: 'Indoor Plant Online Store',
 		imgSrc: './assets/home-jungle.png',
-		technologies: 'React',
-		deployed: true,
+		technologies: {
+			React: './assets/react.png',
+			Redux: './assets/redux.svg',
+		},
+		isDeployed: true,
 		codeSource: 'https://github.com/Alexandra123713/home-jungle-store',
-		liveLink: 'http://home-jungle.funsport95.com/catalog',
+		liveLink: 'http://home-jungle.funsport95.com',
 	},
 	{
 		name: 'Todo App',
 		imgSrc: './assets/todo-app.png',
-		technologies: 'React',
-		deployed: false,
+		technologies: {
+			React: './assets/react.png',
+		},
+		isDeployed: false,
 		codeSource: 'https://github.com/Alexandra123713/todo-app',
 		liveLink: '',
 	},
 	{
 		name: 'Book Library App',
 		imgSrc: './assets/book-library.png',
-		technologies: 'React',
-		deployed: false,
+		technologies: {
+			React: './assets/react.png',
+			Redux: './assets/redux.svg',
+		},
+		isDeployed: false,
 		codeSource: 'https://github.com/Alexandra123713/book-library-app',
 		liveLink: '',
 	},

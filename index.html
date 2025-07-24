@@ -19,8 +19,13 @@
 		<link
 			rel="stylesheet"
 			href="./style.css" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/favicon.ico" />
 	</head>
 	<body>
+		<div class="overlay"></div>
 		<nav>
 			<div class="nav-container">
 				<div class="logo">
@@ -37,6 +42,16 @@
 					<div class="nav-item"><a href="#projects">My Projects</a></div>
 					<div class="nav-item"><a href="#contact">Contact</a></div>
 				</div>
+				<div class="burger-menu">
+					<img
+						src="./assets/burger-menu.png"
+						alt="Burger-menu icon" />
+				</div>
+				<div class="close-icon">
+					<img
+						src="./assets/close-icon.png"
+						alt="Close icon" />
+				</div>
 			</div>
 		</nav>
 		<main>
@@ -48,14 +63,15 @@
 							<p>Junior Front-End developer</p>
 						</div>
 						<a
-							href="#"
+							href="https://drive.google.com/file/d/1jnOgRWSsLG_ZrMF1Q0eHUqEE7U8pKkkv/view"
+							target="_blank"
 							class="cv-btn"
 							>Take a look at my CV</a
 						>
 					</div>
-					<div>
+					<div class="home-img">
 						<img
-							src="./assets/girl_work.jpg"
+							src="./assets/home-img.png"
 							alt="Home image" />
 					</div>
 				</div>
@@ -84,7 +100,7 @@
 						</p>
 
 						<a
-							href="#"
+							href="#projects"
 							class="explore-projects-btn"
 							>Explore My Projects</a
 						>
@@ -106,29 +122,79 @@
 			</section>
 			<section>
 				<div id="projects">
-					<div class="project-card">
-						<div class="name">Coffee app</div>
-						<img
-							src="./assets/coffe-app.png"
-							alt="Coffe app image" />
-						<div class="tehnologies">HTML/CSS/JavaScript</div>
-						<div class="links">
-							<a
-								href="https://alexandra123713.github.io/coffee-app.github.io"
-								target="_blank"
-								>See it live</a
-							>
-							<a
-								href="https://github.com/Alexandra123713/coffee-app.github.io"
-								target="_blank"
-								>View on GitHub</a
-							>
-						</div>
-					</div>
+					<h2>My Projects</h2>
+					<div class="projects-container"></div>
 				</div>
 			</section>
 			<section>
-				<div id="contact">Contact me</div>
+				<div id="contact">
+					<div class="container">
+						<form
+							action="https://formspree.io/f/manbqrra"
+							method="POST">
+							<div class="form-container">
+								<h2>Contact Me</h2>
+								<input
+									type="text"
+									name="name"
+									placeholder="Enter your name"
+									required />
+								<input
+									type="text"
+									name="name"
+									placeholder="Enter your surname"
+									required />
+								<input
+									type="email"
+									name="email"
+									placeholder="Enter your email"
+									required />
+								<textarea
+									name="message"
+									placeholder="Type your message here"
+									required></textarea>
+
+								<button
+									type="submit"
+									class="send-btn">
+									Send
+								</button>
+							</div>
+						</form>
+						<div class="my-contacts">
+							<div class="contact-item">
+								<a
+									href="mailto:alexandracerevatii@gmail.com"
+									target="_blank"
+									><img
+										src="./assets/mail.png"
+										alt="mail icon"
+								/></a>
+
+								<a
+									href="mailto:alexandracerevatii@gmail.com"
+									target="_blank"
+									>alexandracerevatii@gmail.com</a
+								>
+							</div>
+							<div class="contact-item">
+								<a
+									href="https://www.linkedin.com/in/alexandra-cerevatii"
+									target="_blank">
+									<img
+										src="./assets/linkedin.png"
+										alt="linkedin icon"
+								/></a>
+
+								<a
+									href="https://www.linkedin.com/in/alexandra-cerevatii"
+									target="_blank"
+									>Linkedin Profile</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
 		<footer>
